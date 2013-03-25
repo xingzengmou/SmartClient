@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_pwd_linearlayout">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/input_password"/>
+        <EditText android:id="@+id/input_pwd_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:inputType="text" />
+        <Button android:id="@+id/btn_input_pwd_ok"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ok" />"
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/net_linearlayout" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+	    <LinearLayout android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        <TextView android:layout_width="40dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/init_hint"
+	            android:gravity="right"/>
+	        <EditText android:layout_width="200dp"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/net_ip"/>
+	    </LinearLayout>
+	    
+	    <LinearLayout android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        <TextView android:layout_width="40dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/init_hint_house"
+	            android:gravity="right"/>
+	        <EditText android:layout_width="200dp"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/net_port"/>
+	    </LinearLayout>
+	    
+	    <LinearLayout android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        <TextView android:layout_width="40dp"
+	            android:layout_height="wrap_content"
+	            android:gravity="right"/>
+	        <Button android:id="@+id/sure_btn"
+	            android:layout_width="200dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/sure"/>
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

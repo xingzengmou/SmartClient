@@ -1,0 +1,138 @@
+﻿button=走廊射灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=7 #第7路灯光
+end
+
+button=走廊灯带 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=5 #第7路灯光
+end
+
+button=壁    灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=10 #第7路灯光
+end
+
+button=射    灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=6 #第7路灯光
+end
+
+button=厅主灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=8 #第7路灯光
+end
+
+button=窗户射灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=9 #第7路灯光
+end
+
+button=哈谈窗户射灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=9 #第7路灯光
+end
+
+button=哈谈室射灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=12 #第7路灯光
+end
+
+button=哈谈室灯带 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=2 #第7路灯光
+end
+
+button=卧室休息射灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=2 #硬件模块ID
+targetcode=1 #第7路灯光
+end
+
+button=卧室休息灯带 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=2 #硬件模块ID
+targetcode=4 #第7路灯光
+end
+
+button=床头休息射灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=2 #硬件模块ID
+targetcode=1 #第7路灯光
+end
+
+button=床头休息灯带 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=2 #硬件模块ID
+targetcode=4 #第7路灯光
+end
+
+button=卫生间灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=3 #第7路灯光
+end
+
+button=卫生间镜壁灯 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=2 #硬件模块ID
+targetcode=2 #第7路灯光
+end
+
+button=卫生间镜灯带 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=4 #第7路灯光
+end
+
+button=卫生间总控 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=2 #场景号为2
+end
+
+
+button= #按钮名称
+cmdtype=8102 #单路灯光控制
+hardwareid=2 #硬件模块ID
+targetcode=1 #第7路灯光
+end
+
+button= #按钮名称
+cmdtype=8102 #单路灯光控制
+hardwareid=2 #硬件模块ID
+targetcode=1 #第7路灯光
+end
+
+button= 测试调光#按钮名称
+btn_type=light
+cmdtype=8102 #单路灯光控制
+hardwareid=8 #硬件模块ID
+targetcode=1 #第7路灯光
+end

@@ -1,0 +1,12 @@
+﻿kongtiao=测试空调
+hardwareid=3
+end
+kongtiao=进门空调
+hardwareid=12
+end
+kongtiao=哈谈室空调
+hardwareid=16
+end
+kongtiao=卧室空调
+hardwareid=17
+end

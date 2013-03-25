@@ -1,0 +1,83 @@
+﻿button=廊灯 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=1 #场景号为1
+end
+
+button=会议区顶灯 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=2 #场景号为2
+end
+
+button=会议区筒灯 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=3 #场景号为3
+end
+
+button=会议区背景灯 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=4 #场景号为4
+end
+
+button=客厅顶灯 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=5 #场景号为5
+end
+
+button=客厅筒灯 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=6 #场景号为6
+end
+
+button=客厅灯带 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=7 #场景号为7
+end
+
+button=办公灯带 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=8 #场景号为8
+end
+
+button= 办公区顶灯 #按钮名称
+btn_type=light
+cmdtype=8102 #单路灯光控制
+hardwareid=8 #硬件模块ID
+targetcode=8 #第8路灯光
+end
+
+button= 办公区筒灯 #按钮名称
+btn_type=light
+cmdtype=8102 #单路灯光控制
+hardwareid=8 #硬件模块ID
+targetcode=10 #第8路灯光
+end
+
+button=灯光总开 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=11 #场景号为11
+end
+
+button=灯光总关 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=12 #场景号为12
+end

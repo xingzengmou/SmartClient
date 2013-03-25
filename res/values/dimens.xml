@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+	<dimen name="btn_text_size">18dp</dimen>
+	<dimen name="air_tv_size">18dp</dimen>
+</resources>

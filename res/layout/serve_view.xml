@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/layout_room_serive"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginTop="1.0dip"
+            android:gravity="center"
+            android:textSize="@dimen/btn_text_size"
+            android:text="@string/service_room"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            
+            <TextView
+                android:id="@+id/btn_make_up"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="30.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_make_up"
+                android:gravity="center"
+                android:text="@string/service_make_up"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/btn_disturb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="30.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_disturb"
+                android:text="@string/service_do_not_disturb"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="30.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/service_make_up"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/btn_disturb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="30.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/service_do_not_disturb"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2.0"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/layout_weather_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25.0dip"
+            android:text="@string/service_weather_info"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30.0dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/service_out_door"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/txt_out_door"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20.0dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/service_in_door"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/txt_in_door"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_weight="1.0"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30.0dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/service_weather"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/txt_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_weight="1.0"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20.0dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/service_wind_speed"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/txt_wind_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/qingdashao_ly"
+            android:orientation="vertical">
+            <ImageView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_make_up"
+                android:id="@+id/qingdashao_iv"/>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/service_make_up"
+                android:id="@+id/qingdashao_tv"
+                android:textColor="#ff000000"
+                android:background="@drawable/service_bk_dis"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:id="@+id/qingwudarou_ly"
+            android:orientation="vertical">
+            <ImageView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_disturb"
+                android:id="@+id/qingwudarou_iv"/>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/service_do_not_disturb"
+                android:id="@+id/qingwudarou_tv"
+                android:textColor="#ff000000"
+                android:background="@drawable/service_bk_dis"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/jingjihujiao_ly"
+            android:orientation="vertical">
+            <ImageView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jingjihujiao"
+                android:id="@+id/jingjihujiao_iv"/>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/jingjihujiao"
+                android:id="@+id/jingjihujiao_tv"
+                android:textColor="#ff000000"
+                android:background="@drawable/service_bk_dis"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/qingshaohou_ly"
+            android:orientation="vertical">
+            <ImageView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/qingshaohou"
+                android:id="@+id/qingshaohou_iv"/>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/qingshaohou"
+                android:id="@+id/qingshaohou_tv"
+                android:textColor="#ff000000"
+                android:background="@drawable/service_bk_dis"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/qingqiutuifang_ly"
+            android:orientation="vertical">
+            <ImageView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/qingqiutuifang"
+                android:id="@+id/qingqiutuifang_iv"/>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/qingqiutuifang"
+                android:id="@+id/qingqiutuifang_tv"
+                android:textColor="#ff000000"
+                android:background="@drawable/service_bk_dis"/>
+        </LinearLayout>
+       
+        <LinearLayout android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/qingqiufuwu_ly"
+            android:orientation="vertical">
+            <ImageView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/qingqiufuwu_iv"
+                android:background="@drawable/qingqiufuwu"/>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/qingqiufuwu"
+                android:id="@+id/qingqiufuwu_tv"
+                android:background="@drawable/service_bk_dis"
+                android:textColor="#ff000000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

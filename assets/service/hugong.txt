@@ -1,0 +1,42 @@
+﻿button=卫生间总控 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=2 #场景号为2
+end
+
+button=卫生间总控 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=3 #场景号为2
+end
+
+
+button=卫生间总控 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=4 #场景号为2
+end
+
+button=卫生间总控 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=5 #场景号为2
+end
+
+button=卫生间总控 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=6 #场景号为2
+end
+
+button=卫生间总控 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=7 #场景号为2
+end

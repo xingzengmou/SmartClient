@@ -1,0 +1,55 @@
+﻿button=卧室布帘拉升 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=1 #第7路灯光
+end
+
+button=卧室布帘拉下 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=2 #第7路灯光
+end
+
+button=卧室纱帘拉升 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=3 #第7路灯光
+end
+
+button=卧室纱帘拉下 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=4 #第7路灯光
+end
+
+button=卧室遮光帘拉升 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=5 #第7路灯光
+end
+
+button=卧室遮光帘拉下 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=6 #第7路灯光
+end
+
+button=浴室窗帘拉升 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=7 #第7路灯光
+end
+
+button=浴室窗帘拉升 #按钮名称
+btn_type=single #该按键为单路控制
+cmdtype=8102 #单路灯光控制
+hardwareid=1 #硬件模块ID
+targetcode=8 #第7路灯光
+end

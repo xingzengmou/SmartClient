@@ -1,0 +1,76 @@
+﻿button=窗帘1开 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=13 #场景号为13
+end
+
+button=窗帘1关 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=14 #场景号为14
+end
+
+button=窗帘2开 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=15 #场景号为15
+end
+
+button=窗帘2关 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=16 #场景号为16
+end
+
+button=窗帘3开 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=17 #场景号为17
+end
+
+button=窗帘3关 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=18 #场景号为18
+end
+
+button=窗帘4开 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=19 #场景号为19
+end
+
+button=窗帘4关 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=20 #场景号为20
+end
+
+button= 窗帘总开 #按钮名称
+btn_type=light
+cmdtype=8102 #单路灯光控制
+hardwareid=8 #硬件模块ID
+targetcode=21 #第8路灯21
+end
+
+button=窗帘总停 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=22 #场景号为22
+end
+
+button=窗帘总关 #按钮名称
+btn_type=scene #该按键为场景
+cmdtype=8101 #场景灯光控制
+hardwareid=0 #硬件模块ID
+targetcode=23 #场景号为23
+end
